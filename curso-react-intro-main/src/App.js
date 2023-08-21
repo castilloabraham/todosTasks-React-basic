@@ -3,14 +3,14 @@ import { TodoSearch } from './TodoSearch'
 import { TodoItem } from './TodoItem'
 import { TodoList } from './TodoList'
 import { CreateTodoButton } from './CreateTodoButton'
-import './App.css';
+import './css/App.css';
 import React from 'react';
 
 const defaultTodos = [
-	{ text: 'Hacer el curso', completd: true },
-	{ text: 'Hacer el curso2', completd: false },
-	{ text: 'Hacer el curso3', completd: false },
-	{ text: 'Hacer el curso4', completd: false },
+	{ text: 'Hacer el curso', completed: true },
+	{ text: 'Hacer el curso2', completed: false },
+	{ text: 'Hacer el curso3', completed: false },
+	{ text: 'Hacer el curso4', completed: false },
 ];
 
 function App() {
